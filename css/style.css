@@ -1132,7 +1132,6 @@ html:not(.body-menu-opened) .hamburger:hover .bottom-bun {
     margin-bottom: 0.8125rem;
     font-size: 0.875rem;
     font-weight: 600;
-    text-transform: uppercase;
     letter-spacing: 0.06em;
 }
 
@@ -1576,7 +1575,7 @@ h3.slide-title {
 
 @media (min-width: 768px) {
     .portfolio-item-detail {
-        min-height: 8.75rem;
+        min-height: 5.75rem;
     }
 }
 
@@ -2170,7 +2169,7 @@ h3.slide-title {
 }
 
 .portfolio-item-photo {
-    max-width: 300px;
+    max-width: unset
 }
 
 
@@ -2209,6 +2208,9 @@ h3.slide-title {
     .screen-container {
         margin-left: -5rem;
         margin-right: -5rem;
+    }
+    .portfolio-item-photo {
+        max-width: 300px;
     }
 }
 

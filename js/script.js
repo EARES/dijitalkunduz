@@ -53,7 +53,7 @@
 		$('.a-pagepiling').pagepiling({
 			scrollingSpeed: 280,
 			menu: '#menu, #menuMain',
-			anchors: ['About', 'Services', 'Portfolio', 'Clients', 'Contact'],
+			anchors: ['Hakkımızda', 'Hizmetler', 'Portfolyo', 'Teknolojiler', 'Iletisim'],
 			loopTop: false,
 			loopBottom: false,
 			navigation: {
